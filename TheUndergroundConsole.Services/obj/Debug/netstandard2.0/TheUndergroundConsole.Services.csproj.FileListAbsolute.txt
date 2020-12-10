@@ -1,0 +1,16 @@
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\obj\Debug\netstandard2.0\TheUndergroundConsole.Services.csprojAssemblyReference.cache
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\obj\Debug\netstandard2.0\TheUndergroundConsole.Services.AssemblyInfoInputs.cache
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\obj\Debug\netstandard2.0\TheUndergroundConsole.Services.AssemblyInfo.cs
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\obj\Debug\netstandard2.0\TheUndergroundConsole.Services.csproj.CoreCompileInputs.cache
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\bin\Debug\netstandard2.0\TheUndergroundConsole.Services.deps.json
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\bin\Debug\netstandard2.0\TheUndergroundConsole.Services.dll
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\bin\Debug\netstandard2.0\TheUndergroundConsole.Services.pdb
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\bin\Debug\netstandard2.0\TheUndergroundConsole.Common.dll
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\bin\Debug\netstandard2.0\TheUndergroundConsole.Data.dll
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\bin\Debug\netstandard2.0\TheUndergroundConsole.Models.dll
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\bin\Debug\netstandard2.0\TheUndergroundConsole.Data.pdb
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\bin\Debug\netstandard2.0\TheUndergroundConsole.Models.pdb
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\bin\Debug\netstandard2.0\TheUndergroundConsole.Common.pdb
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\obj\Debug\netstandard2.0\TheUndergroundConsole.Services.csproj.CopyComplete
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\obj\Debug\netstandard2.0\TheUndergroundConsole.Services.dll
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Services\obj\Debug\netstandard2.0\TheUndergroundConsole.Services.pdb

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TheUndergroundConsole.Data\TheUndergroundConsole.Data.csproj" />
+    <ProjectReference Include="..\TheUndergroundConsole.Models\TheUndergroundConsole.Models.csproj" />
+  </ItemGroup>
+
+</Project>

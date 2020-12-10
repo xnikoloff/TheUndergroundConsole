@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TheUndergroundConsole.Common</id>
+    <version>1.0.0</version>
+    <authors>TheUndergroundConsole.Common</authors>
+    <owners>TheUndergroundConsole.Common</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Common\bin\Debug\netstandard2.0\TheUndergroundConsole.Common.dll" target="lib\netstandard2.0\TheUndergroundConsole.Common.dll" />
+  </files>
+</package>

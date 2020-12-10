@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "autoR5r7nxqTM7x5a3yX8kY7jyZmg6l0BFrHUHEkqg7k7I6n/W3qniCNUQb9kqYs+lBm7t86h4BOBTrUgLrqgg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xniko\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\xniko\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\xniko\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

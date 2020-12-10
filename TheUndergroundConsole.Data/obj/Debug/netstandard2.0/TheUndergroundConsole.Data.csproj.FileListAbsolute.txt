@@ -1,0 +1,14 @@
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Data\bin\Debug\netstandard2.0\TheUndergroundConsole.Models.dll
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Data\obj\Debug\netstandard2.0\TheUndergroundConsole.Data.csprojAssemblyReference.cache
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Data\obj\Debug\netstandard2.0\TheUndergroundConsole.Data.AssemblyInfoInputs.cache
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Data\obj\Debug\netstandard2.0\TheUndergroundConsole.Data.AssemblyInfo.cs
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Data\bin\Debug\netstandard2.0\TheUndergroundConsole.Data.deps.json
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Data\bin\Debug\netstandard2.0\TheUndergroundConsole.Data.dll
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Data\bin\Debug\netstandard2.0\TheUndergroundConsole.Data.pdb
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Data\bin\Debug\netstandard2.0\TheUndergroundConsole.Common.dll
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Data\bin\Debug\netstandard2.0\TheUndergroundConsole.Common.pdb
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Data\bin\Debug\netstandard2.0\TheUndergroundConsole.Models.pdb
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Data\obj\Debug\netstandard2.0\TheUndergroundConsole.Data.csproj.CopyComplete
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Data\obj\Debug\netstandard2.0\TheUndergroundConsole.Data.dll
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Data\obj\Debug\netstandard2.0\TheUndergroundConsole.Data.pdb
+C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Data\obj\Debug\netstandard2.0\TheUndergroundConsole.Data.csproj.CoreCompileInputs.cache
