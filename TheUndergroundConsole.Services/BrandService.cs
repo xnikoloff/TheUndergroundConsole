@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using TheUndergroundConsole.Data;
 using TheUndergroundConsole.Models;
@@ -30,6 +31,29 @@ namespace TheUndergroundConsole.Services
 
             this.dbContext.Brands.Add(property);
             this.dbContext.SaveChanges();
+        }
+
+        public Brand SelectBrand()
+        {
+            var brands = this.dbContext.Brands
+                .Select(b => new
+                {
+                    b.Id,
+                    b.Name
+                }).ToList();
+
+            foreach (var brand in brands)
+            {
+                Console.WriteLine($"{brand.Id}. {brand.Name}");
+            }
+
+            Console.Write("Select brand's id: ");
+            int brandId = int.Parse(Console.ReadLine());
+
+            var selectedBrand = this.dbContext.Brands
+                .First(b => b.Id == brandId);
+
+            return selectedBrand;
         }
     }
 }

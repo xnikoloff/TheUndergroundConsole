@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj",
+      "projectUniqueName": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj",
       "projectName": "TheUndergroundConsole.Common",
-      "projectPath": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj",
+      "projectPath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj",
       "packagesPath": "C:\\Users\\xniko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Common\\obj\\",
+      "outputPath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\xniko\\AppData\\Roaming\\NuGet\\NuGet.Config",

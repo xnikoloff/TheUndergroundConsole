@@ -10,3 +10,15 @@ C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Models\b
 C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Models\bin\Debug\netstandard2.0\TheUndergroundConsole.Common.pdb
 C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.csproj.CoreCompileInputs.cache
 C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.csproj.CopyComplete
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\bin\Debug\netstandard2.0\TheUndergroundConsole.Models.deps.json
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\bin\Debug\netstandard2.0\TheUndergroundConsole.Models.dll
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\bin\Debug\netstandard2.0\TheUndergroundConsole.Models.pdb
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\bin\Debug\netstandard2.0\TheUndergroundConsole.Common.dll
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\bin\Debug\netstandard2.0\TheUndergroundConsole.Common.pdb
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.csprojAssemblyReference.cache
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.AssemblyInfoInputs.cache
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.AssemblyInfo.cs
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.csproj.CoreCompileInputs.cache
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.csproj.CopyComplete
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.dll
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JIU93rWMKB/ssv5PZGUPYzjg7GXrDh9pXRjjlLAiRn9vN+pJV53VwS8gPWqaP1OlW/24miZJVfSCANq/+XM6nQ==",
+  "dgSpecHash": "LVNgOcgHxoR1DdGVZoSJCWEgh8uIxQNUH+SVvBqslJgoUafVYbO4P/U78L8yC0lPS3KNxL2SN3WpKPXNJU1C/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Data\\TheUndergroundConsole.Data.csproj",
+  "projectFilePath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Data\\TheUndergroundConsole.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xniko\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\xniko\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

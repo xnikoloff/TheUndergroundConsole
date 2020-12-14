@@ -7,3 +7,12 @@ C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Common\o
 C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Common\obj\Debug\netstandard2.0\TheUndergroundConsole.Common.csproj.CoreCompileInputs.cache
 C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Common\obj\Debug\netstandard2.0\TheUndergroundConsole.Common.dll
 C:\Users\xniko\source\repos\TheUndergroundConsole\TheUndergroundConsole.Common\obj\Debug\netstandard2.0\TheUndergroundConsole.Common.pdb
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Common\bin\Debug\netstandard2.0\TheUndergroundConsole.Common.deps.json
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Common\bin\Debug\netstandard2.0\TheUndergroundConsole.Common.dll
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Common\bin\Debug\netstandard2.0\TheUndergroundConsole.Common.pdb
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Common\obj\Debug\netstandard2.0\TheUndergroundConsole.Common.csprojAssemblyReference.cache
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Common\obj\Debug\netstandard2.0\TheUndergroundConsole.Common.AssemblyInfoInputs.cache
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Common\obj\Debug\netstandard2.0\TheUndergroundConsole.Common.AssemblyInfo.cs
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Common\obj\Debug\netstandard2.0\TheUndergroundConsole.Common.csproj.CoreCompileInputs.cache
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Common\obj\Debug\netstandard2.0\TheUndergroundConsole.Common.dll
+D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Common\obj\Debug\netstandard2.0\TheUndergroundConsole.Common.pdb

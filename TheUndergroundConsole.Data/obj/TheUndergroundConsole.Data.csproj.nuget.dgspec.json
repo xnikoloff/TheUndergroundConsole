@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Data\\TheUndergroundConsole.Data.csproj": {}
+    "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Data\\TheUndergroundConsole.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj": {
+    "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj",
+        "projectUniqueName": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj",
         "projectName": "TheUndergroundConsole.Common",
-        "projectPath": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj",
+        "projectPath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj",
         "packagesPath": "C:\\Users\\xniko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Common\\obj\\",
+        "outputPath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xniko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Data\\TheUndergroundConsole.Data.csproj": {
+    "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Data\\TheUndergroundConsole.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Data\\TheUndergroundConsole.Data.csproj",
+        "projectUniqueName": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Data\\TheUndergroundConsole.Data.csproj",
         "projectName": "TheUndergroundConsole.Data",
-        "projectPath": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Data\\TheUndergroundConsole.Data.csproj",
+        "projectPath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Data\\TheUndergroundConsole.Data.csproj",
         "packagesPath": "C:\\Users\\xniko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Data\\obj\\",
+        "outputPath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xniko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,11 +82,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj": {
-                "projectPath": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj"
+              "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj": {
+                "projectPath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj"
               },
-              "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj": {
-                "projectPath": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj"
+              "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj": {
+                "projectPath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj": {
+    "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj",
+        "projectUniqueName": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj",
         "projectName": "TheUndergroundConsole.Models",
-        "projectPath": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj",
+        "projectPath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj",
         "packagesPath": "C:\\Users\\xniko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Models\\obj\\",
+        "outputPath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xniko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,8 +164,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj": {
-                "projectPath": "C:\\Users\\xniko\\source\\repos\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj"
+              "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj": {
+                "projectPath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj"
               }
             }
           }
