@@ -21,6 +21,9 @@ namespace TheUndergroundConsole.Models
         public int ModelId { get; set; }
 
         public Model Model { get; set; }
+        public string Modification { get; set; }
+
+        public int Price { get; set; }
 
         public Colour Colour { get; set; }
 

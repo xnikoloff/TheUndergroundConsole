@@ -14,11 +14,19 @@ namespace TheUndergroundConsole.ConsoleApplication
             IBrandService brandService = new BrandService(dbContext);
             IModelService modelService = new ModelService(dbContext);
             ICarService carService = new CarService(dbContext);
-
+            IStoreService storeService = new StoreService(dbContext);
+            IPlayerService playerService = new PlayerService(dbContext);
+            IRaceEventService raceEventService = new RaceEventService();
             //ImportDataToBrands(brandService);
             //ImportDataToModels(modelService, brandService);
-            CreateCar(carService, brandService, modelService);
+            //CreateCar(carService, brandService, modelService);
+            //ShowCarsInStore(storeService);
+            //CreatePlayer(playerService);
+            //BuyCar(playerService, storeService);
+            //Player player = playerService.ChoosePlayerToPlayWith();
+            //ShowGaradge(playerService, player);
 
+            StartRaceEvent(raceEventService, playerService, carService);
         }
 
         static void ImportDataToBrands(IBrandService brandService)
@@ -87,8 +95,42 @@ namespace TheUndergroundConsole.ConsoleApplication
             string tuneStageString = Console.ReadLine();
 
             carService.Create(brand, model, (Colour)Enum.Parse(typeof(Colour), colourString), power, overallPoints, (TuneStage)Enum.Parse(typeof(TuneStage), tuneStageString));
+        }
 
+        static void ShowCarsInStore(IStoreService storeService)
+        {
+            storeService.ShowCarsInStock();
+        }
 
+        static void CreatePlayer(IPlayerService playerService)
+        {
+            Console.Write("Name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("Origin: ");
+            string origin = Console.ReadLine();
+
+            playerService.Create(name, origin);
+        }
+
+        static void BuyCar(IPlayerService playerService, IStoreService storeService)
+        {
+            Player player = playerService.ChoosePlayerToPlayWith();
+            playerService.BuyCar(player, storeService);
+        }
+
+        static void ShowGaradge(IPlayerService playerService, Player player)
+        {
+            Console.WriteLine($"{player.Name}'s garadge: ");
+            playerService.ShowGaradge(player);
+        }
+
+        static void StartRaceEvent(IRaceEventService raceEventService, IPlayerService playerService, 
+            ICarService carService)
+        {
+            Player player = playerService.ChoosePlayerToPlayWith();
+            Player rival = playerService.GenerateRival(player);
+            raceEventService.StartEvent(player, rival, playerService, carService);
         }
     }
 }

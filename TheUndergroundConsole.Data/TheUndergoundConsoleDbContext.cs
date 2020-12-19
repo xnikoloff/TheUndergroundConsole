@@ -14,6 +14,7 @@ namespace TheUndergroundConsole.Data
         public DbSet<CarPlayer> CarPlayers { get; set; }
         public DbSet<Model> Models { get; set; }
         public DbSet<Player> Players { get; set; }
+        public DbSet<RaceEvent> RaceEvents { get; set; }
 
 
         public TheUndergoundConsoleDbContext()

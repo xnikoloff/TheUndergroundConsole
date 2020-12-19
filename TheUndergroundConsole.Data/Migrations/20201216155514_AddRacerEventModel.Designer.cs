@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TheUndergroundConsole.Data;
 
 namespace TheUndergroundConsole.Data.Migrations
 {
     [DbContext(typeof(TheUndergoundConsoleDbContext))]
-    partial class TheUndergoundConsoleDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201216155514_AddRacerEventModel")]
+    partial class AddRacerEventModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

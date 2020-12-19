@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TheUndergroundConsole.Data;
 
 namespace TheUndergroundConsole.Data.Migrations
 {
     [DbContext(typeof(TheUndergoundConsoleDbContext))]
-    partial class TheUndergoundConsoleDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201214133637_AddPricePropToCarModel")]
+    partial class AddPricePropToCarModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -50,17 +52,14 @@ namespace TheUndergroundConsole.Data.Migrations
                     b.Property<int>("ModelId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Modification")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("OveralPoints")
                         .HasColumnType("int");
 
                     b.Property<int>("Power")
                         .HasColumnType("int");
 
-                    b.Property<int>("Price")
-                        .HasColumnType("int");
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
 
                     b.Property<int>("TuneStage")
                         .HasColumnType("int");
@@ -117,9 +116,6 @@ namespace TheUndergroundConsole.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Bank")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
@@ -136,28 +132,6 @@ namespace TheUndergroundConsole.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Players");
-                });
-
-            modelBuilder.Entity("TheUndergroundConsole.Models.RaceEvent", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("PlayerId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("RivalId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("PlayerId");
-
-                    b.HasIndex("RivalId");
-
-                    b.ToTable("RaceEvents");
                 });
 
             modelBuilder.Entity("TheUndergroundConsole.Models.Car", b =>
@@ -195,21 +169,6 @@ namespace TheUndergroundConsole.Data.Migrations
                     b.HasOne("TheUndergroundConsole.Models.Brand", "Brand")
                         .WithMany("Models")
                         .HasForeignKey("BrandId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("TheUndergroundConsole.Models.RaceEvent", b =>
-                {
-                    b.HasOne("TheUndergroundConsole.Models.Player", "Player")
-                        .WithMany("RaceEventsAsPlayer")
-                        .HasForeignKey("PlayerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("TheUndergroundConsole.Models.Player", "Rival")
-                        .WithMany("RaceEventsAsRival")
-                        .HasForeignKey("RivalId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

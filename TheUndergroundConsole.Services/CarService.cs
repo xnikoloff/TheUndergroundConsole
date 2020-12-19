@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using TheUndergroundConsole.Data;
 using TheUndergroundConsole.Models;
@@ -30,6 +31,35 @@ namespace TheUndergroundConsole.Services
 
             this.dbContext.Cars.Add(car);
             this.dbContext.SaveChanges();
+        }
+
+        public Car GenerateCar(Player player)
+        {
+            Random rnd = new Random();
+
+            var carList = this.dbContext.Cars
+            .Select(c => new
+            {
+                c.Brand,
+                c.Model,
+                c.Modification,
+                c.Power,
+                c.OveralPoints
+
+            }).ToList();
+
+            Car rndCar = null;
+
+            do
+            {
+                int randomNumber = rnd.Next(1, carList.Count);
+                rndCar = this.dbContext.Cars.Where(c => c.Id == randomNumber).FirstOrDefault();
+            }
+            while (rndCar == null);
+            
+            //Add view model later
+            
+            return rndCar;
         }
     }
 }
