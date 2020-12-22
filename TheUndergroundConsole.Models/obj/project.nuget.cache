@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1vpkAnnwCZDXnvWh0lJmSNE+eSLoi+q8a8DL9PH2vv7H/Z8ZPs6bHADSkqL67Y8ALWIPk/4O50sU0F8qgXykmw==",
+  "dgSpecHash": "AAjZec+BFBdze9TgSK3a/iE0IxE8sE+LC3TZ6xyEyPAJM9dNZLrtIZZ8qqgexGkNRDZ4psVh5v4rlBWagSAZPw==",
   "success": true,
-  "projectFilePath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj",
+  "projectFilePath": "C:\\Users\\hrist\\Downloads\\TheUndergroundConsole-master\\TheUndergroundConsole-master\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\xniko\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\xniko\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\xniko\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    "C:\\Users\\hrist\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\hrist\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\hrist\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

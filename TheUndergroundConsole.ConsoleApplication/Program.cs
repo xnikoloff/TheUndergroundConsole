@@ -10,6 +10,9 @@ namespace TheUndergroundConsole.ConsoleApplication
     {
         static void Main(string[] args)
         {
+            //TODO: A global menu to control the game
+
+
             TheUndergoundConsoleDbContext dbContext = new TheUndergoundConsoleDbContext();
             IBrandService brandService = new BrandService(dbContext);
             IModelService modelService = new ModelService(dbContext);

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "OQgYQvOGsN8O81kOldcrM0DbNdX1b+zlmD8zJ6Icn7G2pKApA9MXmCSxUGvGsZVbhMVnwlPS5gBE9kLYIFw/4w==",
+  "dgSpecHash": "HryhbjuJk1Jhnj6j3weuPCngn3hJr6XFHrm9Q09jN+aGJiAxvYdor12g0Blkj4HuhK25p5L/fUp+fvgd82LbiA==",
   "success": true,
-  "projectFilePath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj",
+  "projectFilePath": "C:\\Users\\hrist\\Downloads\\TheUndergroundConsole-master\\TheUndergroundConsole-master\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\xniko\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\xniko\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\hrist\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\hrist\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

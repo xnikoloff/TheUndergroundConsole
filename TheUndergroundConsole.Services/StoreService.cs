@@ -16,6 +16,7 @@ namespace TheUndergroundConsole.Services
             this.dbContext = dbContext;
         }
 
+        //Show available cars for a player according to his current points
         public void ShowAvailableCarsForPlayer(Player player)
         {
             var carsInStock = this.dbContext.Cars
@@ -37,6 +38,7 @@ namespace TheUndergroundConsole.Services
             }
         }
 
+        //Show all cars in the store
         public void ShowCarsInStock()
         {
             var carsInStock = this.dbContext.Cars

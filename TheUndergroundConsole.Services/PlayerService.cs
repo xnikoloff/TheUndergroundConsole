@@ -10,10 +10,16 @@ namespace TheUndergroundConsole.Services
 {
     public class PlayerService : IPlayerService
     {
+        //String arrays holding commom first and last names. 
+        //They're used to generate rival's name
         private readonly string[] firstNames = { "John", "Aaron", "David", "Michael", "Tommy", "Frank", "Christian",
             "Andre", "Curtis", "Travis", "Antony", "Jack"};
+
         private readonly string[] lastNames = { "Adams", "Baker", "Bell", "Atkinson", "Brown", "Carter", "Davidson",
             "Dixon", "Edwards", "Evans", "Harvey", "Murphy"};
+
+        //String arrays holding common country names
+        //It's used to generate rival's origin
         private readonly string[] countries = { "Australia", "Austria", "Belgium", "Bulgaria", "England",
         "Estonia", "France", "Finland", "Germany", "Georgia", "Norway", "Poland", "Sweden", "Unated States"};
         
@@ -24,6 +30,7 @@ namespace TheUndergroundConsole.Services
             this.dbContext = dbContext;
         }
 
+        //Create new player and save it to the Db
         public void Create(string name, string origin)
         {
             Player player = new Player
@@ -38,20 +45,26 @@ namespace TheUndergroundConsole.Services
             this.dbContext.SaveChanges();
         }
 
+        //Buy a car and save it to the player's garadge
+        //The method accepts two parameters - Player and IStoreService
+        //Player param is used to determin who is the buyer and
+        //IStoreService is to give the player's access to the store
         public void BuyCar(Player player, IStoreService store)
         {
             store.ShowAvailableCarsForPlayer(player);
 
             Console.Write("Select a car: ");
-            int carChoise = int.Parse(Console.ReadLine());
+            int carId = int.Parse(Console.ReadLine());
 
             /*
             string[] carParameters = ExtractCarName(carChoise);
             string brand = carParameters[0];
             string model = carParameters[1];*/
 
-            Car car = this.dbContext.Cars.Where(c => c.Id == carChoise).FirstOrDefault();
+            //Get a car from the Db
+            Car car = this.dbContext.Cars.Where(c => c.Id == carId).FirstOrDefault();
 
+            //Create a new object of mapping class CarPlayer
             CarPlayer carPlayer = new CarPlayer
             {
                 Car = car,
@@ -71,6 +84,7 @@ namespace TheUndergroundConsole.Services
             return carParameters;
         }*/
 
+        //Tax player according to the purchased car's price
         private void TaxPlayer(Player player, Car car)
         {
             player.Bank -= car.Price;
@@ -100,6 +114,7 @@ namespace TheUndergroundConsole.Services
             return player;
         }
 
+        //Generates rival for a race event 
         public Player GenerateRival(Player player)
         {
             string rivalFullName = GeneratRivaleName();
@@ -121,8 +136,10 @@ namespace TheUndergroundConsole.Services
         {
             Random rnd = new Random();
 
+            //get a random value from the firstNames and lastNames arrays
             string rivalFirstName = this.firstNames[rnd.Next(0, this.firstNames.Length)];
             string rivalLastName = this.lastNames[rnd.Next(0, this.lastNames.Length)];
+
             string rivalFullName = rivalFirstName + " " + rivalLastName;
 
             return rivalFullName;
@@ -131,6 +148,8 @@ namespace TheUndergroundConsole.Services
         private string GetRivalOrigin()
         {
             Random rnd = new Random();
+
+            //get a random value from the countries arrays
             string country = this.countries[rnd.Next(0, this.countries.Length)];
 
             return country;
@@ -139,11 +158,14 @@ namespace TheUndergroundConsole.Services
         private int GenerateRivalPoints(Player player)
         {
             Random rnd = new Random();
+
+            //Generate random points for the rival (+20/-20 of the user's points)
             int rivalPoints = rnd.Next((player.Points - 20), (player.Points + 20));
 
             return rivalPoints;
         }
 
+        //Show player's garadge
         public void ShowGaradge(Player player)
         {
             var garadge = this.dbContext.CarPlayers
@@ -162,6 +184,7 @@ namespace TheUndergroundConsole.Services
             }
         }
 
+        //Selects a car for a race event
         public Car ChooseCarToPlayWith(Player player)
         {
             ShowGaradge(player);

@@ -50,12 +50,12 @@ namespace TheUndergroundConsole.Services
             }
 
             //Select the Brand's id for the desired model
-            Console.Write("Select brand's id: ");
-            int brandId = int.Parse(Console.ReadLine());
+            Console.Write("Select model's id: ");
+            int modelId = int.Parse(Console.ReadLine());
 
             //Get the car model from the Db
             var selectedModel = this.dbContext.Models
-                .First(b => b.Id == brandId);
+                .First(m => m.Id == modelId);
 
             return selectedModel;
         }
@@ -65,10 +65,10 @@ namespace TheUndergroundConsole.Services
         {
             var models = this.dbContext.Models
                 .Where(m => m.Brand == brand)
-                .Select(b => new
+                .Select(m => new
                 {
-                    b.Id,
-                    b.Name
+                    m.Id,
+                    m.Name
                 }).ToList();
 
             foreach (var model in models)
@@ -76,11 +76,11 @@ namespace TheUndergroundConsole.Services
                 Console.WriteLine($"{model.Id}. {model.Name}");
             }
 
-            Console.Write("Select brand's id: ");
-            int brandId = int.Parse(Console.ReadLine());
+            Console.Write("Select model's id: ");
+            int modelId = int.Parse(Console.ReadLine());
 
             var selectedModel = this.dbContext.Models
-                .First(b => b.Id == brandId);
+                .First(m => m.Id == modelId);
 
             return selectedModel;
         }

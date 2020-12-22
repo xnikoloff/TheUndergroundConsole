@@ -6304,19 +6304,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xniko\\.nuget\\packages\\": {}
+    "C:\\Users\\hrist\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Data\\TheUndergroundConsole.Data.csproj",
+      "projectUniqueName": "C:\\Users\\hrist\\Downloads\\TheUndergroundConsole-master\\TheUndergroundConsole-master\\TheUndergroundConsole.Data\\TheUndergroundConsole.Data.csproj",
       "projectName": "TheUndergroundConsole.Data",
-      "projectPath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Data\\TheUndergroundConsole.Data.csproj",
-      "packagesPath": "C:\\Users\\xniko\\.nuget\\packages\\",
-      "outputPath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Data\\obj\\",
+      "projectPath": "C:\\Users\\hrist\\Downloads\\TheUndergroundConsole-master\\TheUndergroundConsole-master\\TheUndergroundConsole.Data\\TheUndergroundConsole.Data.csproj",
+      "packagesPath": "C:\\Users\\hrist\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hrist\\Downloads\\TheUndergroundConsole-master\\TheUndergroundConsole-master\\TheUndergroundConsole.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\xniko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hrist\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6328,12 +6328,13 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj": {
-              "projectPath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj"
+            "C:\\Users\\hrist\\Downloads\\TheUndergroundConsole-master\\TheUndergroundConsole-master\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj": {
+              "projectPath": "C:\\Users\\hrist\\Downloads\\TheUndergroundConsole-master\\TheUndergroundConsole-master\\TheUndergroundConsole.Common\\TheUndergroundConsole.Common.csproj"
             },
-            "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj": {
-              "projectPath": "D:\\Nikoloff\\Work\\c#\\TheUndergroundConsole\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj"
+            "C:\\Users\\hrist\\Downloads\\TheUndergroundConsole-master\\TheUndergroundConsole-master\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj": {
+              "projectPath": "C:\\Users\\hrist\\Downloads\\TheUndergroundConsole-master\\TheUndergroundConsole-master\\TheUndergroundConsole.Models\\TheUndergroundConsole.Models.csproj"
             }
           }
         }
@@ -6346,6 +6347,7 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -6384,7 +6386,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -22,3 +22,15 @@ D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\obj\Debug
 D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.csproj.CopyComplete
 D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.dll
 D:\Nikoloff\Work\c#\TheUndergroundConsole\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.pdb
+C:\Users\hrist\Downloads\TheUndergroundConsole-master\TheUndergroundConsole-master\TheUndergroundConsole.Models\bin\Debug\netstandard2.0\TheUndergroundConsole.Models.deps.json
+C:\Users\hrist\Downloads\TheUndergroundConsole-master\TheUndergroundConsole-master\TheUndergroundConsole.Models\bin\Debug\netstandard2.0\TheUndergroundConsole.Models.dll
+C:\Users\hrist\Downloads\TheUndergroundConsole-master\TheUndergroundConsole-master\TheUndergroundConsole.Models\bin\Debug\netstandard2.0\TheUndergroundConsole.Models.pdb
+C:\Users\hrist\Downloads\TheUndergroundConsole-master\TheUndergroundConsole-master\TheUndergroundConsole.Models\bin\Debug\netstandard2.0\TheUndergroundConsole.Common.dll
+C:\Users\hrist\Downloads\TheUndergroundConsole-master\TheUndergroundConsole-master\TheUndergroundConsole.Models\bin\Debug\netstandard2.0\TheUndergroundConsole.Common.pdb
+C:\Users\hrist\Downloads\TheUndergroundConsole-master\TheUndergroundConsole-master\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.csprojAssemblyReference.cache
+C:\Users\hrist\Downloads\TheUndergroundConsole-master\TheUndergroundConsole-master\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.AssemblyInfoInputs.cache
+C:\Users\hrist\Downloads\TheUndergroundConsole-master\TheUndergroundConsole-master\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.AssemblyInfo.cs
+C:\Users\hrist\Downloads\TheUndergroundConsole-master\TheUndergroundConsole-master\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.csproj.CoreCompileInputs.cache
+C:\Users\hrist\Downloads\TheUndergroundConsole-master\TheUndergroundConsole-master\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.csproj.CopyComplete
+C:\Users\hrist\Downloads\TheUndergroundConsole-master\TheUndergroundConsole-master\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.dll
+C:\Users\hrist\Downloads\TheUndergroundConsole-master\TheUndergroundConsole-master\TheUndergroundConsole.Models\obj\Debug\netstandard2.0\TheUndergroundConsole.Models.pdb
