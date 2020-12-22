@@ -15,6 +15,8 @@ namespace TheUndergroundConsole.Services
         {
             this.dbContext = dbContext;
         }
+        
+        //Inital import to the Db
         public void ImportData(string name, Brand brand)
         {
             if (name == "" || name == null)
@@ -31,7 +33,8 @@ namespace TheUndergroundConsole.Services
             this.dbContext.Models.Add(property);
             this.dbContext.SaveChanges();
         }
-
+        
+        //Used to select a car model from the Db while creating a car
         public Model SelectModel()
         {
             var models = this.dbContext.Models
@@ -46,15 +49,18 @@ namespace TheUndergroundConsole.Services
                 Console.WriteLine($"{model.Id}. {model.Name}");
             }
 
+            //Select the Brand's id for the desired model
             Console.Write("Select brand's id: ");
             int brandId = int.Parse(Console.ReadLine());
 
+            //Get the car model from the Db
             var selectedModel = this.dbContext.Models
                 .First(b => b.Id == brandId);
 
             return selectedModel;
         }
 
+        //Used to select a model 
         public Model SelectModelByBrand(Brand brand)
         {
             var models = this.dbContext.Models
