@@ -16,7 +16,7 @@ namespace TheUndergroundConsole.Models
 
         public int BrandId { get; set; }
 
-        public Brand Brand { get; set; }
+        public Brand Bran { get; set; }
 
         public int ModelId { get; set; }
 
